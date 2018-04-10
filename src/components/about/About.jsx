@@ -10,7 +10,7 @@ class About extends Component {
           the San Francisco Bay Area. I attended UC Berkeley where I earned a
           degree in Electrical Engineering and Computer Science. After college I
           honed my full stack web development skills by completing a three month
-          intensive coding bootcamp App Academy. Check out some of my projects
+          intensive coding bootcamp called App Academy. Check out some of my projects
           to see what I've been working on.
         </div>
       </div>
