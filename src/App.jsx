@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import { Route, Switch, HashRouter } from 'react-router-dom'
 import NavContainer from './components/nav/NavContainer'
+import About from './components/about/About'
 import './style/nav.css'
+import './style/about.css'
 
 class App extends Component {
   render() {
@@ -10,7 +12,7 @@ class App extends Component {
         <div className="App">
           <NavContainer />
           <Switch>
-            <Route path="/" component="" />
+            <Route path="/" component={About} />
           </Switch>
         </div>
       </HashRouter>
