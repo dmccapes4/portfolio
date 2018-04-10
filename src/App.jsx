@@ -2,8 +2,10 @@ import React, { Component } from 'react'
 import { Route, Switch, HashRouter } from 'react-router-dom'
 import NavContainer from './components/nav/NavContainer'
 import About from './components/about/About'
+import ProjectContainer from './components/projects/ProjectContainer'
 import './style/nav.css'
 import './style/about.css'
+import './style/projects.css'
 
 class App extends Component {
   render() {
@@ -12,6 +14,7 @@ class App extends Component {
         <div className="App">
           <NavContainer />
           <Switch>
+            <Route path="/projects" component={ProjectContainer} />
             <Route path="/" component={About} />
           </Switch>
         </div>
