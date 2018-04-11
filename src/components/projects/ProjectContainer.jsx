@@ -20,7 +20,7 @@ class ProjectContainer extends Component {
           tech="React, Hasura, OpenTok"
           id="project-notalone"
           image="../../notalone.gif"
-          link="https://ui.acridly74.hasura-app.io"
+          link="https://ui.acridly34.hasura-app.io"
         />
         <Project
           title="ShiftSwap"
