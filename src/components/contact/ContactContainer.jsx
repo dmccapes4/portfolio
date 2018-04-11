@@ -7,14 +7,23 @@ class ContactContainer extends Component {
     let image = document.createElement("img")
     image.setAttribute("src", "../../mail-icon.jpeg")
     mail.appendChild(image)
+
+    const linkedin = document.getElementById("contact-linkedin")
+
+    image = document.createElement("img")
+    image.setAttribute("src", "../../linkedin-icon.png")
+    linkedin.appendChild(image)
   }
 
   render() {
     return (
       <div className="contact-container">
         <a href="mailto:dmccapes@mac.com"
-           className="contact-mail"
+           className="contact-icon"
            id="contact-mail" />
+        <a href="https://linkedin.com/in/dylan-mccapes"
+           className="contact-icon"
+           id="contact-linkedin" />
       </div>
     )
   }

@@ -6,9 +6,15 @@
   background: #f5f5f5;
 }
 
-.contact-mail img {
+.contact-icon img {
   width: 200px;
   height: 200px;
   margin-top: 50px;
   border-radius: 100px;
+}
+
+#contact-linkedin img {
+  width: 300px;
+  height: 300px;
+  margin-top: 0px;
 }
